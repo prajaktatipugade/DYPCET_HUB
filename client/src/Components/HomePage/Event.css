@@ -1,0 +1,64 @@
+.codeevent {
+    color: red;
+}
+
+.codetime {
+    background-color: rgb(138, 138, 96);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 5px;
+}
+
+.eventabout{
+    text-align:left;
+    color: rgb(118, 116, 116);
+}
+
+.eventhead{
+    text-align:left;
+    font-weight: bold;
+}
+
+.eventdate{
+color: rgba(8, 4, 4, 0.935);
+font-weight: bold;
+}
+
+
+.eventfee{
+    color: rgba(8, 4, 4, 0.935);
+    font-weight: bold;
+}
+
+.edate{
+    text-align:left;
+    line-height: 0.5;
+}
+
+.efee{
+    margin-left: 25px;
+    text-align:left;
+    line-height: 0.5;
+}
+
+.btnregister{
+    border: 1px solid black;
+    font-weight: 500;
+}
+.btnregister:hover{
+    background-color: black;
+    color: white;
+    
+}
+.cardhover:hover{
+    box-shadow: 2px 1px 8px 4px rgb(147, 143, 143);;
+    scale: 1.01;
+    background-color: rgb(206, 196, 204);
+    
+}
+.cardhover .eventabout:hover{
+    color: black;
+}

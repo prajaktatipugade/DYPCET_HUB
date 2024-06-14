@@ -1,0 +1,51 @@
+.UploadContainer{
+    height: 350px;
+    margin-left: 300px;
+    width: 400px;  
+}
+.UploadContainer-Announcement{
+    height: 300px;
+}
+
+ .container{
+    
+} 
+.heading{
+    margin-left: 300px;
+}
+
+.UploadContainer input,.UploadContainer button{
+    border: 1px solid black;
+    margin-top: 15px;
+    height: 40px;
+    width: 350px;
+    background-color: white;  
+    padding: 5px;
+}
+.UploadContainer button{
+    background-color: rgb(67, 126, 236);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.UploadContainer-Gallery{
+    height: 200px;
+}
+.UploadContainer button:hover{
+    background-color: green;
+}
+
+.forgot_pass{
+    margin-left: 250px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.forgot_pass:hover{
+    cursor: pointer;
+}
+
+.validation-message {
+    color: red;
+    margin-top: 5px; /* Add margin for better spacing */
+}

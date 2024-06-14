@@ -1,0 +1,202 @@
+
+
+header h1{
+    color: var(--animation-color);    padding-top: 20px;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+
+   }
+   .headding{
+    height:20px;
+    left:0px;
+    width:300px;
+    text-align:center;
+    color:orange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   
+    font-size: 30px;
+    padding: 20px 0px;
+  }
+  .hedinfo{
+    font-size:20px;
+    padding:20px 0px;
+    color:rgb(45, 18, 152) ;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .cenBtn{
+    margin-left: 80%;
+    margin-top: -10%;
+  }
+
+  .clubBtn{
+    margin-left: 60%;
+    margin-top: -13%;
+  }
+
+
+  
+.comcontainer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+
+  scrollbar-width: none;
+}
+.comcontainer{
+   /* background-image: linear-gradient(to left, #0e2f61, #052a50, #06243f, #0b1e2f, #0e171f),linear-gradient(to right, #0e2f61, #052a50, #06243f, #0b1e2f, #0e171f); */
+   background-color:rgb(27, 27, 65);
+   background-image: linear-gradient(to top, #0e2f61, #052a50, #06243f, #0b1e2f, #0e171f); 
+}
+.comcontainer1{
+  width:100%;
+  height:100vh;
+ 
+}
+
+.cardscontainer{
+   width:90%;
+  height:auto;
+  margin-bottom: 100px;
+
+}
+.eventcontainer{
+  width:100%;
+  height:80vh;
+  
+}
+.addClubasAdmin{
+  height:140px;
+  padding:30px;
+  background-image: linear-gradient(to top, #4116de, #770ddf, #9e06df, #be09df, #db16de);
+  margin:20px;
+}
+.cardheadding{
+ 
+  font-size: 120px;
+  background: radial-gradient(circle, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+
+
+}
+
+
+
+/* navbar */
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  border-radius: 10px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-logo1{
+  background: radial-gradient(circle, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.center-nav {
+  width: 40%;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-evenly;
+  align-self: flex-end;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.center-nav li a {
+  text-decoration: none;
+  /* color: black; */
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.center-nav li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #203A61;
+  transition: width 0.5s ease;
+}
+
+.center-nav li a:hover::after {
+  width: 100%;
+}
+
+.center-nav li a.active::after {
+  width: 100%;
+}
+
+.center-nav li a:hover {
+  /* color: #666; */
+  color: #0a205a;
+}
+
+.center-nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.center-nav li a.active {
+  font-weight: bold;
+}
+
+
+.homepage{
+  width:100%;
+  height: 100%;
+}
+.headding{
+  /*
+  font-size: 120px;
+  background: radial-gradient(circle, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+  margin-top:200px;
+  font-size: 120px;
+  font-weight: 800;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
+  
+}
+@keyframes animate {
+  to{
+    background-position: 400%;
+  }
+}
+
+.hidden{
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+.show{
+  transform: translateX(0);
+
+}
+@media(prefers-reduced-motion){
+  .hidden{
+    transition: none;
+  }
+}

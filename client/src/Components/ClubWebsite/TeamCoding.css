@@ -1,0 +1,25 @@
+.our-team {
+    text-align: center;
+}
+
+.teamMemberImage {
+    /* height: 400px; */
+}
+
+@media (min-width:1024px) {
+    .membersRow {
+        margin: 0px 100px 0px 100px !important;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+    .membersRow {
+        margin: 0px 50px 0px 50px !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .membersRow {
+        margin: 0px 20px 0px 20px !important;
+    }
+}

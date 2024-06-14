@@ -1,0 +1,21 @@
+:root {
+    --navBg: #fafafa;
+    --textLogo1: #03a4ed;
+    --textLogo2: #fe3f40;
+}
+
+.custom-navbar {
+    background-color: var(--navBg);
+}
+
+.custom-offcanvas {
+    background-color: var(--navBg);
+}
+
+.dypcet-clg {
+    color: var(--textLogo1);
+}
+
+.dypcet-club {
+    color: var(--textLogo2);
+}

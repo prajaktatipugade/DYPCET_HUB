@@ -1,0 +1,161 @@
+:root {
+    --green-color: #1abc9c;
+    --blue-color: rgb(57, 35, 252);
+    --light-gray: rgb(197, 197, 197);
+    --sblue-color: #337ab4;
+    --mix-color:linear-gradient(to right, #6377d1, rgb(57, 35, 252));
+}
+
+
+.MainContainerLogin{
+    height: 90vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    background-image: url('https://doak.dypgroup.edu.in/wp-content/uploads/2020/06/168.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ContainerBoxLogin{
+    background-color: rgba(0, 0, 0, 0.454);
+    height: 420px;
+    width: 90%;
+    padding: 20px;
+    margin-left: 60px;
+}
+.ContainerBoxLogin img{
+    height: 100px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.LoginContainer
+{
+ background-color: rgba(0, 0, 0, 0.502); 
+ height: 380px;
+ width: 400px;
+ border-radius: 5px;
+ margin-left: 750px;  
+ color: white;
+ position: absolute;
+}
+
+.subAdminReqFormBox{
+    height: 630px;
+}
+
+.LoginBox
+{
+    background-color: rgba(0, 0, 0, 0.502); 
+    height: 270px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 750px;  
+    color: white;
+    
+}
+.AdminBox{
+    background-color: rgba(0, 0, 0, 0.502); 
+    height: 240px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 750px;  
+    color: white;
+}
+
+.subAdminBox{
+    height: 300px;
+}
+
+
+.subAdminReqForm{
+    height: 520px;
+}
+
+.LoginContainer h4 {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.LoginContainer .input input,
+.login-btn {
+    width: 370px;
+    margin-left: 10px;
+    height: 35px;
+    outline: none;
+    border-radius: 3px;
+    transition: 0.2s;
+    z-index: 1;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+
+.LoginContainer .input .textarea{
+    height: 60px;
+}
+
+
+.LoginContainer  .login-btn {
+    border: 1px solid #8c8c8c;
+    background: var(--blue-color);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.LoginContainer p {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1350px){
+    .LoginContainer{
+        margin-left: 550px;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .LoginContainer{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width:920px){
+    .LoginContainer{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width:820px){
+    .LoginContainer{
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .LoginContainer{
+        margin-left: 5px;
+        width: 300px;
+    }
+    .ContainerBoxLogin{
+        width: 350px;
+    }
+    .LoginContainer .input input,
+.login-btn{
+    width: 270px;
+}
+}

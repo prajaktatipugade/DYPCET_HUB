@@ -1,0 +1,32 @@
+.customCard {
+    width: calc(100% - 20px);
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+    height: 450px;
+}
+
+.custom-arrow {
+    background-color: rgb(23, 43, 143);
+    border-radius: 50%;
+}
+
+.custom-arrow:hover{
+    background-color: rgb(5, 5, 33);
+}
+
+.custom-next-arrow {
+    position: absolute;
+    right: -10px;
+}
+
+@media (max-width: 768px) {
+    .customCard {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .customCard {
+        width: calc(100% - 5px);
+    }
+}

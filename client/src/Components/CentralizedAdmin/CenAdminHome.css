@@ -1,0 +1,49 @@
+.admin-panel {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #3764eb;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .nav-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-items li {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .nav-items li.active {
+    background-color: #223865;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  
+  .btnAccept{
+    margin-right: 55px;
+    margin-left: 20px;
+  }
+
+  .butn:hover{
+    border: 2px solid black;
+   
+  }

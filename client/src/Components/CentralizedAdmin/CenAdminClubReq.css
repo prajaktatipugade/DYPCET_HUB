@@ -1,0 +1,32 @@
+.button {
+    margin-left: 10px;
+}
+
+Button {
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.6);
+    width: 90px;
+}
+
+.admincard {
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.6);
+    
+    margin: 10px 0px 10px 20px;
+}
+.cardhover {
+    /* Add other card styles as needed */
+    height: auto; /* Set height to auto */
+    min-height: 320px; /* Set a minimum height */
+  }
+  
+
+.admincard:hover {
+    scale: 1.01;
+
+}
+
+.cardrender {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
